@@ -6,6 +6,10 @@
 .env 
 .env.local 
 .env.prod
+yarn.lock 
+package-lock.json
+ios/Podfile.lock 
+
 # Xcode
 #
 build/
