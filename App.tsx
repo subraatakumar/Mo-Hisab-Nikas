@@ -8,12 +8,15 @@
 import React, {useEffect, useState} from 'react';
 import {SafeAreaView, ScrollView, Text} from 'react-native';
 import {getUniqueId} from 'react-native-device-info';
+
 function App(): React.JSX.Element {
   const [uniqueId, setUniqueId] = useState('');
 
   useEffect(() => {
     getUniqueId().then(id => setUniqueId(id));
   }, []);
+
+  const myVariable = 'hello'; // No semicolon here!
 
   return (
     <SafeAreaView>
