@@ -1,4 +1,4 @@
-package com.kindconnect
+package in.enhanceme.mohisabnikas
 
 import android.app.Application
 import com.facebook.react.PackageList
