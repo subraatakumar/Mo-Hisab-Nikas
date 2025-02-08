@@ -1,0 +1,30 @@
+name: ESLint Check
+
+on:
+  pull_request:
+    branches:
+      - main # Or your main branch name
+
+jobs:
+  lint:
+    runs-on: ubuntu-latest # Or macos-latest if you need macOS
+
+    steps:
+      - name: Checkout code
+        uses: actions/checkout@v3
+
+      - name: Set up Node.js
+        uses: actions/setup-node@v3
+        with:
+          node-version: 18 # Or your preferred Node.js version
+          cache: 'npm' # Cache node modules to speed up the process
+
+      - name: Install dependencies
+        run: npm install # Or yarn install if you use yarn
+
+      - name: Run ESLint
+        run: npm run lint
+
+      - name: Check for ESLint errors
+        if: ${{ failure() }}
+        run: exit 1 # Fail the workflow if there are ESLint errors
