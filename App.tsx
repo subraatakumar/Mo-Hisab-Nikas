@@ -21,7 +21,9 @@ function App(): React.JSX.Element {
   return (
     <SafeAreaView>
       <ScrollView contentInsetAdjustmentBehavior="automatic">
-        <Text>Sample App: {uniqueId}</Text>
+        <Text>
+          Sample App: {uniqueId} {myVariable}
+        </Text>
       </ScrollView>
     </SafeAreaView>
   );
