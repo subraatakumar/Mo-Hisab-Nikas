@@ -47,7 +47,17 @@ module.exports = {
     },
     'import/resolver': {
       node: {
+        paths: ['src'],
         extensions: ['.js', '.jsx', '.ts', '.tsx'], // Important for resolving imports
+      },
+      alias: {
+        map: [
+          ['@components', './src/components'],
+          ['@screens', './src/screens'],
+          ['@assets', './src/assets'],
+          ['@utils', './src/utils'],
+        ],
+        extensions: ['.ts', '.tsx', '.js', '.json'],
       },
     },
   },
