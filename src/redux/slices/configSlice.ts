@@ -1,8 +1,9 @@
 import {createSlice} from '@reduxjs/toolkit';
+import {configs} from '@utils/configdata';
 
 const configSlice = createSlice({
   name: 'configSlice',
-  initialState: {},
+  initialState: configs,
   reducers: {},
 });
 

@@ -1,4 +1,4 @@
-package in.enhanceme.mohisabnikas
+package com.enhanceme.mohisabnikas
 
 import android.app.Application
 import com.facebook.react.PackageList
