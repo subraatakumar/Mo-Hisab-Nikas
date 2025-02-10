@@ -1,2 +1,2 @@
 export {colors} from './colors';
-export {configs} from './configs';
+export {default as configs} from './configs';
