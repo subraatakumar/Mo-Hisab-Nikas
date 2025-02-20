@@ -7,7 +7,7 @@ const App = () => {
 
   console.log('colors:', colors);
   console.log('configs:', configs);
-  return <View></View>;
+  return <View />;
 };
 
 export default App;
