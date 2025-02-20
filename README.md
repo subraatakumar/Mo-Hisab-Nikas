@@ -8,7 +8,7 @@
 
 ## 💬 Community & Support  
 
-💡 Want to contribute? Check out the [Contributing Guide](https://github.com/subraatakumar/Mo-Hisab-Nikas/blob/main/CONTRIBUTING.md).  
+💡 Want to contribute? Check out the [Contributing Guide](https://github.com/subraatakumar/Mo-Hisab-Nikas/blob/main/CONTRIBUTING.MD).  
 📢 Join the discussion on [GitHub Discussion](https://github.com/subraatakumar/Mo-Hisab-Nikas/discussions).  
 📨 Contact us at enhanceme.in+mohisabnikas@gmail.com.  
 
