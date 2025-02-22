@@ -1,3 +1,5 @@
+![](assets/images/featured_image.png)
+
 - Clone the repo
 - run `npx husky`
 - run `chmod +x .husky/pre-commit`
