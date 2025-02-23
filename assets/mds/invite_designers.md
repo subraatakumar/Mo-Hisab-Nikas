@@ -1,6 +1,5 @@
 # 🚀 Calling All Designers & UX Enthusiasts: Shape the Future of *Mo Hisab Nikas*!
 
-![Open Source Collaboration](https://source.unsplash.com/800x400/?technology,collaboration)
 
 ## 🌟 Join the First Open-Source Design Challenge!
 
@@ -54,6 +53,6 @@ Let’s collaborate and build something amazing together! 🌍✨
 
 ---
 
-🔗 **Stay Connected**: Follow us on [Twitter](#), [LinkedIn](https://www.linkedin.com/company/opensource-techcraft/?viewAsMember=true), and [GitHub](#) for updates!
+🔗 **Stay Connected**: Follow us on [Twitter](#), [LinkedIn](https://www.linkedin.com/company/opensource-techcraft/?viewAsMember=true), and [GitHub](https://github.com/subraatakumar/Mo-Hisab-Nikas) for updates!
 
 🎉 Let’s make *Mo Hisab Nikas* the go-to open-source expense tracker! 💪🚀
